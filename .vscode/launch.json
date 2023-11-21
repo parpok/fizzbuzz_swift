@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:FizzBuzz}",
+            "name": "Debug FizzBuzz",
+            "program": "${workspaceFolder:FizzBuzz}/.build/debug/FizzBuzz",
+            "preLaunchTask": "swift: Build Debug FizzBuzz"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:FizzBuzz}",
+            "name": "Release FizzBuzz",
+            "program": "${workspaceFolder:FizzBuzz}/.build/release/FizzBuzz",
+            "preLaunchTask": "swift: Build Release FizzBuzz"
+        }
+    ]
+}
